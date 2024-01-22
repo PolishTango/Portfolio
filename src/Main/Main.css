@@ -81,11 +81,9 @@
   .Menu-Filter{
     width: 100vw;
     height: 70px;
-    border-bottom: 2px solid #eee;
+    border-bottom: 10px solid #eee;
     align-items: center; /* Center items vertically */
   }
-.Menu-Filter-Icons{
-}
   .FilterIcon{
     width: 20px;
     height: 20px;
