@@ -65,7 +65,6 @@ export const HomePage = () => {
               />
               {showOptions && (
                 <div className='Options' ref={optionsRef}>
-                  {/* Render your 5 options here */}
                   <div className='opcja1' > <Link className='List' to ="/Main">Who is Daniel Fronczak?</Link> </div>
                   <div className='opcja2' > <Link className='List' to ="/Projects">What are Daniel's Projects?</Link> </div>
                   <div className='opcja2' > <Link className='List' to ="/Socials">Does Daniel have Social Media?</Link> </div>

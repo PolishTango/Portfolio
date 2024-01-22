@@ -25,7 +25,6 @@ const handleInputClick = (setShowOptions, showOptions) => {
   
     const handleQuestionClick = (content) => {
       if (extendedContent === content) {
-        // If clicking on the same question, toggle the extended content
         setExtendedContent('');
       } else {
         setExtendedContent(content);
@@ -77,7 +76,6 @@ const handleInputClick = (setShowOptions, showOptions) => {
           />
           {showOptions && (
                             <div className='Options2' ref={optionsRef}>
-                            {/* Render your 5 options here */}
                             <div className='opcja1' > <Link className='List' to ="/Main">All</Link> </div>
                             <div className='opcja2' > <Link className='List' to ="/Projects">Projects</Link> </div>
                             <div className='opcja2' > <Link className='List' to ="/">Fronczak</Link> </div>
@@ -118,11 +116,9 @@ const handleInputClick = (setShowOptions, showOptions) => {
             </a>
             <p className='description'>List of Daniel's Social media in one place. </p>
         </div>
-        
       </div>
       </div>
       </div>
-
     </div>
   );
 }

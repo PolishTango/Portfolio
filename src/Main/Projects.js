@@ -26,7 +26,6 @@ function Projects() {
 
   const handleQuestionClick = (content) => {
     if (extendedContent === content) {
-      // If clicking on the same question, toggle the extended content
       setExtendedContent('');
     } else {
       setExtendedContent(content);
@@ -100,7 +99,7 @@ function Projects() {
       <div className='All-Content'>
         <div className='All-Content-Inside'>
       <p className='All-Result-Time'>
-        About 6 results (0.72 seconds)
+        About 4 results (0.36 seconds)
       </p>
     <div className='All-Result'>
 
@@ -113,7 +112,6 @@ function Projects() {
             In his free time, he loves to edit YouTube films, where he can give free rein to his creativity... 
             </p>
         </div>
- 
         <div className='All-Result-Container'>
             <a className='hrefek' href='https://polishtango.github.io/Papier-Kamien-Nozyczki/'>
                 <p>polishtango.github.io/Papier-Kamien-Nozyczki</p>
@@ -134,13 +132,10 @@ function Projects() {
                 <p>polishtango.github.io/KlanoweczkaIKosteczka-Minecraft</p>
                 <h3>Minecraft server page </h3>
             </a>
-            
             <p className='description'>Daniel created a Minecraft server, and later, 
             he decided to develop an entire webpage<br></br> for his friends. The webpage includes tutorials, cinematics, and other surprises.
               </p>
               </div>
-
-
     </div>
     </div>
     </div>

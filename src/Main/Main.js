@@ -26,7 +26,6 @@ function Main() {
 
   const handleQuestionClick = (content) => {
     if (extendedContent === content) {
-      // If clicking on the same question, toggle the extended content
       setExtendedContent('');
     } else {
       setExtendedContent(content);
@@ -70,7 +69,6 @@ function Main() {
           />
           {showOptions && (
                             <div className='Options2' ref={optionsRef}>
-                            {/* Render your 5 options here */}
                             <div className='opcja1' > <Link className='List' to ="/Projects">Projects</Link> </div>
                             <div className='opcja2' > <Link className='List' to ="/SocialMedia">Socials</Link> </div>
                             <div className='opcja2' > <Link className='List' to ="/">Fronczak</Link> </div>
@@ -187,19 +185,16 @@ function Main() {
             </a>
             <p className='description'>Daniel made a proposition with his friend to develop their programming skills <br></br> creating a website within a specified time. Here is the result of it.
             </p>
-            
         </div>
         <div className='All-Result-Container'>
             <a className='hrefek' href='https://polishtango.github.io/KlanoweczkaIKosteczka-Minecraft/index.html'>
                 <p>polishtango.github.io/KlanoweczkaIKosteczka-Minecraft</p>
                 <h3>Minecraft server page </h3>
             </a>
-            
             <p className='description'>Daniel created a Minecraft server, and later, 
             he decided to develop an entire webpage<br></br> for his friends. The webpage includes tutorials, cinematics, and other surprises.
               </p>
               </div>
-
               <div className='All-Result-Container'>
             <a className='hrefek' href='https://daniel-fronczak.carrd.co/'>
                 <p>https://daniel-fronczak.carrd.co</p>
@@ -207,7 +202,6 @@ function Main() {
             </a>
             <p className='description'>List of Daniel's Social media in one place. </p>
         </div>
-        
         <div className='All-Result-Container'>
             <a className='hrefek' href='https://www.youtube.com/watch?v=ZaUm-mSbS6c'>
                 <p>youtube.com/PolishTangoMontage</p>
