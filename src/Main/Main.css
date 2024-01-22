@@ -81,8 +81,17 @@
   .Menu-Filter{
     width: 100vw;
     height: 70px;
-    border-bottom: 10px solid #eee;
+    border-bottom: 2px solid #eee;
     align-items: center; /* Center items vertically */
+  }
+  .Menu-Filter-Icons{
+    width: 555px;
+    margin-left: 210px;
+    margin-right: -60px;
+    text-decoration: none;
+    padding: 10px 2px;
+    align-items: center; /* Center items vertically */
+    display: flex;
   }
   .FilterIcon{
     width: 20px;
