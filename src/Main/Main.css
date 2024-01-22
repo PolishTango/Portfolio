@@ -82,8 +82,7 @@
     width: 100vw;
     height: 70px;
     border-bottom: 2px solid #eee;
-    align-items: center; /* Center items vertically */
-  }
+    align-items: center; /* Center items vertical
 .Menu-Filter-Icons{
   margin-left: 210px;
   margin-right: -60px;
@@ -136,9 +135,6 @@
   width: 100%;
     padding-top: 5px;
 }
-.Who-Asked-Container {
-}
-
 .Question {
   width: 100%;
   justify-content: space-between;
