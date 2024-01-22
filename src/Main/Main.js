@@ -72,13 +72,13 @@ function Main() {
                             <div className='Options2' ref={optionsRef}>
                             {/* Render your 5 options here */}
                             <div className='opcja1' > <Link className='List' to ="/Projects">Projects</Link> </div>
-                            <div className='opcja2' > <Link className='List' to ="/Socials">Socials</Link> </div>
+                            <div className='opcja2' > <Link className='List' to ="/SocialMedia">Socials</Link> </div>
                             <div className='opcja2' > <Link className='List' to ="/">Fronczak</Link> </div>
                           </div>
           )}
         </div>
         <div className='Panele-top'>
-        <a href='mailto:fronczakdaniel2000@gmail.com'> 
+        <a href='https://www.linkedin.com/in/daniel-fronczak-profile'> 
         <img src={Avatar} className='obrazek4' alt='Avatar' />
            </a>
            </div>
@@ -105,12 +105,12 @@ function Main() {
       </p>
       <div className='All-Result'>
         <div className='All-Result-Container'>
-            <a className='hrefek' href='sss'>
-                <p>Link /</p>
+            <a className='hrefek' href='https://polishtango.github.io/Portfolio-Studia/'>
+                <p>polishtango.github.io/Portfolio-Studia</p>
                 <h3> Who is Daniel?  </h3>
             </a>
-            <p className='description'> Daniel is a 23 years old student which wants to develop his front-end programming skills.<br></br>     
-            In a free time he loves to edit Youtube films where he can give free rein to his creativity... 
+            <p className='description'> Daniel is a 23-year-old student who wants to develop his front-end programming skills. <br></br>     
+            In his free time, he loves to edit YouTube films, where he can give free rein to his creativity... 
             </p>
         </div>
         <div className='Who-Asked'>
@@ -162,9 +162,9 @@ function Main() {
                   <p>
                     Yes of course here are some of it:
                   <br></br>
-                    Email - <br></br>
-                    Instagram - <br></br>
-                    Linkedin - <br></br>
+                    Email - fronczakdaniel2000@gmail.com <br></br>
+                    Instagram - Daniel_Fronczak <br></br>
+                    GitHub - PolishTango <br></br>
                     </p>
                 </div>
               )}
@@ -174,45 +174,48 @@ function Main() {
         </div>
       </div>
         <div className='All-Result-Container'>
-            <a className='hrefek' href='www.google.pl'>
-                <p>https:twojastarapijana.pl</p>
-                <h3>Restaurant site template</h3>
+            <a className='hrefek' href='https://polishtango.github.io/Papier-Kamien-Nozyczki/'>
+                <p>polishtango.github.io/Papier-Kamien-Nozyczki</p>
+                <h3> Trzy Cztery - Rock Paper Scissors </h3>
             </a>
-            <p className='description'>Portfollio which has been made for a first time in a React...  </p>
+            <p className='description'>One of Daniel's first projects in JavaScript is a rock-paper-scissors game. </p>
         </div>
         <div className='All-Result-Container'>
-            <a className='hrefek' href='www.google.pl'>
-                <p>https:twojastarapijana.pl</p>
-                <h3>Designing page</h3>
+            <a className='hrefek' href='https://polishtango.github.io/Fronczak-Burger2/'>
+                <p>polishtango.github.io/Fronczak-Burger2</p>
+                <h3>Hamburger Restaurant Site</h3>
             </a>
-            <p className='description'>Portfollio which has been made for a first time in a React...  </p>
+            <p className='description'>Daniel made a proposition with his friend to develop their programming skills <br></br> creating a website within a specified time. Here is the result of it.
+            </p>
             
         </div>
         <div className='All-Result-Container'>
             <a className='hrefek' href='https://polishtango.github.io/KlanoweczkaIKosteczka-Minecraft/index.html'>
-                <p>https://polishtango.github.io/KlanoweczkaIKosteczka-Minecraft/index.html</p>
+                <p>polishtango.github.io/KlanoweczkaIKosteczka-Minecraft</p>
                 <h3>Minecraft server page </h3>
             </a>
+            
             <p className='description'>Daniel created a Minecraft server, and later, 
-            he decided to develop an entire webpage<br></br> for his friends. The webpage includes tutorials cinematics and other surprises.
+            he decided to develop an entire webpage<br></br> for his friends. The webpage includes tutorials, cinematics, and other surprises.
               </p>
-            
-        </div>
-        <div className='All-Result-Container'>
-            <a className='hrefek' href='www.google.pl'>
-                <p>https:twojastarapijana.pl</p>
-                <h3>Hobby </h3>
-            </a>
-            <p className='description'>Portfollio which has been made for a first time in a React...  </p>
-            
-        </div>
-        <div className='All-Result-Container'>
+              </div>
+
+              <div className='All-Result-Container'>
             <a className='hrefek' href='https://daniel-fronczak.carrd.co/'>
-                <p>https://daniel-fronczak.carrd.co/</p>
+                <p>https://daniel-fronczak.carrd.co</p>
                 <h3>Daniel's Social Media</h3>
             </a>
-            <p className='description'>List of Daniel's Social medias in one place. </p>
+            <p className='description'>List of Daniel's Social media in one place. </p>
         </div>
+        
+        <div className='All-Result-Container'>
+            <a className='hrefek' href='https://www.youtube.com/watch?v=ZaUm-mSbS6c'>
+                <p>youtube.com/PolishTangoMontage</p>
+                <h3>Video Editing Skills</h3>
+            </a>
+            <p className='description'>Daniel loves to edit videos, this time, it's a video edit from a computer game. </p>
+        </div>
+
       </div>
       </div>
       </div>

@@ -78,14 +78,14 @@ const handleInputClick = (setShowOptions, showOptions) => {
           {showOptions && (
                             <div className='Options2' ref={optionsRef}>
                             {/* Render your 5 options here */}
-                            <div className='opcja1' > <Link className='List' to ="/Projects">Projects</Link> </div>
-                            <div className='opcja2' > <Link className='List' to ="/Socials">Socials</Link> </div>
+                            <div className='opcja1' > <Link className='List' to ="/Main">All</Link> </div>
+                            <div className='opcja2' > <Link className='List' to ="/Projects">Projects</Link> </div>
                             <div className='opcja2' > <Link className='List' to ="/">Fronczak</Link> </div>
                           </div>
           )}
         </div>
         <div className='Panele-top'>
-        <a href='mailto:fronczakdaniel2000@gmail.com'> 
+        <a href='https://www.linkedin.com/in/daniel-fronczak-profile'> 
         <img src={Avatar} className='obrazek4' alt='Avatar' />
            </a>
            </div>
@@ -113,11 +113,12 @@ const handleInputClick = (setShowOptions, showOptions) => {
       <div className='All-Result'>
       <div className='All-Result-Container'>
             <a className='hrefek' href='https://daniel-fronczak.carrd.co/'>
-                <p>https://daniel-fronczak.carrd.co/</p>
+                <p>https://daniel-fronczak.carrd.co</p>
                 <h3>Daniel's Social Media</h3>
             </a>
-            <p className='description'>List of Daniel's Social medias in one place. </p>
+            <p className='description'>List of Daniel's Social media in one place. </p>
         </div>
+        
       </div>
       </div>
       </div>

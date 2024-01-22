@@ -37,7 +37,7 @@ export const HomePage = () => {
         <a href='https://github.com/PolishTango'>
           <img src={Github} className='obrazek2' alt='Github' />
         </a>
-        <a href='mailto:fronczakdaniel2000@gmail.com'>
+        <a href='https://www.linkedin.com/in/daniel-fronczak-profile/'>
         <img src={Avatar} className='obrazek4' alt='Avatar' />
            </a>
       </div>
@@ -78,9 +78,7 @@ export const HomePage = () => {
       </div>
       <div className='Lower_Nav'>
         <ul>
-          <li> About me </li>
-          <li> Projects </li>
-          <li> Socials</li>
+          <li> 22.01.2024 Webpage is in a development state ~ Daniel </li>
         </ul>
       </div>
     </div>
